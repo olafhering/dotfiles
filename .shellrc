@@ -1,0 +1,17 @@
+# vim: syntax=sh
+olh_bashrc_trace="$olh_bashrc_trace ~/.shellrc"
+olh_shell_rc=true
+
+export PATH=$HOME/bin:$PATH
+export LC_COLLATE=POSIX
+export HISTCONTROL=ignoreboth:erasedups
+export HISTFILESIZE=123456
+export HISTSIZE=23456
+export PS1='\u@\h:\w \$ '
+export LS_OPTIONS="--color=auto"
+test -z "$SHELL"        && export SHELL=/bin/bash     || :
+test -x /usr/bin/vim    && export EDITOR=/usr/bin/vim || :
+test -r /sw/bin/init.sh && source /sw/bin/init.sh     || :
+test -s ~/.alias        && source ~/.alias            || :
+test -x /usr/bin/dircolors -a -f $HOME/.dir_colors && eval "`/usr/bin/dircolors -b $HOME/.dir_colors`"
+

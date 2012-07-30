@@ -1,0 +1,44 @@
+# vim: syntax=sh
+unalias -a
+
+alias l='ls -lF'
+alias la='ls -la'
+alias ll='ls -la'
+alias ls='ls $LS_OPTIONS'
+alias ls-l='ls -l'
+
+alias diff='diff -p'
+
+alias o='less'
+
+alias -- +='pushd .'
+alias -- -='popd'
+alias ..='cd ..'
+alias ...='cd ../..'
+
+alias gcc='gcc -Wall '
+alias indent='indent -kr -i8 '
+alias patch='patch --no-backup-if-mismatch'
+alias diff='diff -p'
+alias vc=~/bin/vc
+
+alias ibs='/usr/bin/osc -A https://api.suse.de'
+alias nbs='/usr/bin/osc -A http://api.novell.com'
+alias obs='/usr/bin/osc -A https://api.opensuse.org'
+alias osc='echo "Use 'ibs' or 'nbs' or 'obs' command" ; false'
+
+if test -e /suse -a -e /mounts
+then
+	alias rtin_suse='sh -c "mkdir -vp /tmp/mybugs ; cd /tmp/mybugs ; rtin -q -g nntp.suse.de -f ~/.newsrc.suse -z" ; date'
+	alias rtin_tinorg='rtin -q -g news.tin.org -f ~/.newsrc.tinorg -z'
+
+	alias 32mbuild='time sudo powerpc32 /work/src/bin/mbuild'
+	alias check_if_valid_source_dir='/work/src/bin/check_if_valid_source_dir'
+	alias whatdependson='/work/src/bin/whatdependson'
+fi
+
+xtermset () {
+	export PS1='\u@\h:\w> '
+	echo -ne "\033]0;"$@"\007"
+}
+
