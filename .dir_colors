@@ -90,6 +90,8 @@ EXEC 00;32
 .tb2  00;31
 .tz2  00;31
 .tbz2 00;31
+.lzma 00;31
+.xz   00;31
 
 # image formats
 .avi  00;35
