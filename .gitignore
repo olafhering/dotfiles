@@ -1,6 +1,7 @@
 .Xauthority
 .bash_history
 .lesshst
+.recently-used.xbel
 .viminfo
 # http://www.gnu.org/software/automake
 
