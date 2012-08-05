@@ -1,5 +1,6 @@
-.viminfo
+.bash_history
 .lesshst
+.viminfo
 # http://www.gnu.org/software/automake
 
 Makefile.in
