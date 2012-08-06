@@ -5,6 +5,7 @@
 .viminfo
 .w3m/bufinfo
 .w3m/history
+.xsession-errors
 .*~
 *~
 # http://www.gnu.org/software/automake
