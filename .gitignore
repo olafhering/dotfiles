@@ -3,6 +3,8 @@
 .lesshst
 .recently-used.xbel
 .viminfo
+.w3m/bufinfo
+.w3m/history
 .*~
 *~
 # http://www.gnu.org/software/automake
