@@ -2,6 +2,8 @@
 .Xauthority
 .bash_history
 .lesshst
+.pulse-cookie
+.pulse
 .recently-used.xbel
 .viminfo
 .w3m/bufinfo
