@@ -4,6 +4,7 @@
 .cache
 .config
 .dbus
+.gconf
 .lesshst
 .pulse-cookie
 .pulse
