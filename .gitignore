@@ -5,6 +5,7 @@
 .config
 .dbus
 .gconf
+.gnome2
 .lesshst
 .libreoffice
 .mozilla
