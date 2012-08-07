@@ -16,6 +16,7 @@
 .viminfo
 .w3m/bufinfo
 .w3m/history
+.xdg_menu_cache
 .xsession-errors
 .*~
 *~
