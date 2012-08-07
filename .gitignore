@@ -6,6 +6,7 @@
 .dbus
 .gconf
 .lesshst
+.mozilla
 .pulse-cookie
 .pulse
 .recently-used.xbel
