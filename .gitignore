@@ -5,6 +5,8 @@
 .pulse-cookie
 .pulse
 .recently-used.xbel
+.ssh/authorized_keys
+.ssh/known_hosts
 .viminfo
 .w3m/bufinfo
 .w3m/history
