@@ -5,6 +5,7 @@
 .config
 .dbus
 .gconf
+.gitconfig
 .gnome2
 .lesshst
 .libreoffice
@@ -12,6 +13,7 @@
 .pulse-cookie
 .pulse
 .recently-used.xbel
+.signature
 .ssh/authorized_keys
 .ssh/known_hosts
 .viminfo
