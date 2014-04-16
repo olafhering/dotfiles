@@ -25,7 +25,8 @@ alias vc=~/bin/vc
 alias ibs='/usr/bin/osc -A https://api.suse.de'
 alias nbs='/usr/bin/osc -A http://api.novell.com'
 alias obs='/usr/bin/osc -A https://api.opensuse.org'
-alias osc='echo "Use 'ibs' or 'nbs' or 'obs' command" ; false'
+alias pbs='/usr/bin/osc -A https://pmbs-api.links2linux.org'
+alias osc='echo "Use 'ibs' or 'nbs' or 'obs' or 'pbs' command" ; false'
 
 if test -e /suse -a -e /mounts
 then
