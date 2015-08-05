@@ -33,6 +33,7 @@ TERM gnome
 TERM mach-color
 TERM rxvt
 TERM screen
+TERM screen.xterm
 TERM screen-w
 TERM vt100
 TERM vt102
