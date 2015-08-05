@@ -22,6 +22,7 @@ alias patch='patch --no-backup-if-mismatch'
 alias diff='diff -p'
 alias vc=~/bin/vc
 alias vi='env -u DISPLAY vim'
+alias vim='env -u DISPLAY vim'
 
 alias ibs='/usr/bin/osc -A https://api.suse.de'
 alias obs='/usr/bin/osc -A https://api.opensuse.org'
