@@ -1,3 +1,4 @@
 caption always "screen on %H: %n %t %u"
 defscrollback 12345
 startup_message off
+vbell off
