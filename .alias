@@ -24,10 +24,10 @@ alias vc=~/bin/vc
 alias vi='env -u DISPLAY vim'
 alias vim='env -u DISPLAY vim'
 
-alias ibs='/usr/bin/osc -A https://api.suse.de'
-alias obs='/usr/bin/osc -A https://api.opensuse.org'
-alias pbs='/usr/bin/osc -A https://pmbs-api.links2linux.org'
-alias sbs='/usr/bin/osc -A https://api.suse.com'
+alias ibs='/usr/bin/osc --config=$HOME/.osc/oscrc -A https://api.suse.de'
+alias obs='/usr/bin/osc --config=$HOME/.osc/oscrc -A https://api.opensuse.org'
+alias pbs='/usr/bin/osc --config=$HOME/.osc/oscrc -A https://pmbs-api.links2linux.org'
+alias sbs='/usr/bin/osc --config=$HOME/.osc/oscrc -A https://api.suse.com'
 alias osc='echo "Use 'ibs' or 'obs' or 'pbs' or 'sbs' command" ; false'
 
 if test -e /suse -a -e /mounts
