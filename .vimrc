@@ -14,6 +14,7 @@ set backup		" keep a backup file
 set viminfo='20,\"50	" read/write a .viminfo file, don't store more
 			" than 50 lines of registers
 
+:let g:sh_noisk=1
 
 set scrolloff=20
 :set showmatch		" jump emacs style to matching bracket
