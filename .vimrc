@@ -1,4 +1,5 @@
 " Vim
+let $DISPLAY = ""
 " An example for a vimrc file.
 "
 " To use it, copy it to
