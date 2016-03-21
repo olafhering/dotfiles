@@ -177,4 +177,5 @@ augroup END
   hi link SpecialComment Special
   hi link Debug		Special
 
-
+  hi ExtraWhitespace term=standout ctermbg=Yellow ctermfg=Black guifg=Blue guibg=Yellow
+  autocmd Syntax * syn match ExtraWhitespace /\s\+$\| \+\ze\t/
