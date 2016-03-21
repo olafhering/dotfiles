@@ -52,6 +52,7 @@ augroup cprog
   "   Don't change the order, it's important that the line with * comes first.
   autocmd BufRead *       set formatoptions=tcql nocindent comments&
   autocmd BufRead *.c,*.h set formatoptions=croql cindent comments=sr:/*,mb:*,el:*/,://
+  autocmd BufRead */tools/xentrace/xenalyze/*.c,*/tools/libx?/*.c,*/tools/libx?/*.h,*/tools/libx?/*.idl set formatoptions=croql cindent et tw=80 ts=4 shiftwidth=4 comments=sr:/*,mb:*,el:*/,://
 augroup END
 
 if has("cscope")
