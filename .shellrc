@@ -7,7 +7,7 @@ case "$OSTYPE" in
 		export LS_OPTIONS="--color=auto"
 	;;
 esac
-export PATH=$HOME/bin:$PATH
+export PATH=$HOME/bin:/usr/share/helpers/bin:$PATH
 export LC_COLLATE=POSIX
 export HISTCONTROL=ignoreboth:erasedups
 export HISTFILESIZE=123456
