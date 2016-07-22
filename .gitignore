@@ -1,5 +1,6 @@
 .ICEauthority
 .Xauthority
+.android
 .bash_history
 .cache
 .config
@@ -9,6 +10,7 @@
 .gnome2
 .lesshst
 .libreoffice
+.local
 .mozilla
 .pulse-cookie
 .pulse
@@ -23,6 +25,7 @@
 .xsession-errors
 .*~
 *~
+bin/
 # http://www.gnu.org/software/automake
 
 Makefile.in
