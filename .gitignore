@@ -37,10 +37,10 @@
 .xsession-errors-:0
 .*~
 *~
-Maildir/
-bin/
-git/
-work/
+Maildir
+bin
+git
+work
 
 # http://www.gnu.org/software/automake
 
