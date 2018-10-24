@@ -29,6 +29,7 @@
 .ssh
 .ssh/authorized_keys
 .ssh/known_hosts
+.subversion
 .unison
 .viminfo
 .w3m/bufinfo
