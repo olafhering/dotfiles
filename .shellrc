@@ -18,4 +18,4 @@ test -x /usr/bin/vim    && export EDITOR=/usr/bin/vim || :
 test -r /sw/bin/init.sh && source /sw/bin/init.sh     || :
 test -s ~/.alias        && source ~/.alias            || :
 test -x /usr/bin/dircolors -a -f $HOME/.dir_colors && eval "`/usr/bin/dircolors -b $HOME/.dir_colors`"
-
+ulimit -c unlimited
