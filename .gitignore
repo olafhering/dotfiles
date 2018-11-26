@@ -37,6 +37,7 @@
 .xdg_menu_cache
 .xsession-errors
 .xsession-errors-:0
+.xsession-errors.old
 .*~
 *~
 Maildir
