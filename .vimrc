@@ -52,7 +52,17 @@ augroup cprog
   "   Don't change the order, it's important that the line with * comes first.
   autocmd BufRead *       set formatoptions=tcql nocindent comments&
   autocmd BufRead *.c,*.h set formatoptions=croql cindent comments=sr:/*,mb:*,el:*/,://
-  autocmd BufRead */tools/xentrace/xenalyze/*.c,*/tools/libx?/*.c,*/tools/libx?/*.h,*/tools/libx?/*.idl set formatoptions=croql cindent et tw=80 ts=4 shiftwidth=4 comments=sr:/*,mb:*,el:*/,://
+  autocmd BufRead xen/*/*.c                   set formatoptions=croql cindent et tw=80 ts=4 shiftwidth=4 comments=sr:/*,mb:*,el:*/,://
+  autocmd BufRead xen/*/*/*.c                 set formatoptions=croql cindent et tw=80 ts=4 shiftwidth=4 comments=sr:/*,mb:*,el:*/,://
+  autocmd BufRead xen/*/*/*/*.c               set formatoptions=croql cindent et tw=80 ts=4 shiftwidth=4 comments=sr:/*,mb:*,el:*/,://
+  autocmd BufRead tools/xentrace/xenalyze/*.c set formatoptions=croql cindent et tw=80 ts=4 shiftwidth=4 comments=sr:/*,mb:*,el:*/,://
+  autocmd BufRead tools/libx?/*.c             set formatoptions=croql cindent et tw=80 ts=4 shiftwidth=4 comments=sr:/*,mb:*,el:*/,://
+  autocmd BufRead tools/libx?/*.h             set formatoptions=croql cindent et tw=80 ts=4 shiftwidth=4 comments=sr:/*,mb:*,el:*/,://
+  autocmd BufRead tools/libx?/*.idl           set formatoptions=croql cindent et tw=80 ts=4 shiftwidth=4 comments=sr:/*,mb:*,el:*/,://
+  autocmd BufRead tools/xl/*.?                set formatoptions=croql cindent et tw=80 ts=4 shiftwidth=4 comments=sr:/*,mb:*,el:*/,://
+
+  autocmd BufRead coregrind/m_syswrap/*.c set formatoptions=croql cindent et tw=80 ts=3 shiftwidth=3 comments=sr:/*,mb:*,el:*/,://
+  autocmd BufRead include/vki/vki-xen*.h  set formatoptions=croql cindent et tw=80 ts=4 shiftwidth=4 comments=sr:/*,mb:*,el:*/,://
 augroup END
 
 if has("cscope")
