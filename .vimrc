@@ -11,8 +11,8 @@ set nocompatible	" Use Vim defaults (much better!)
 set bs=2		" allow backspacing over everything in insert mode
 set ai			" always set autoindenting on
 set backup		" keep a backup file
-set viminfo='20,\"50	" read/write a .viminfo file, don't store more
-			" than 50 lines of registers
+set viminfo='20,\"1234	" read/write a .viminfo file, don't store more
+			" than 1234 lines of registers
 
 :let g:sh_noisk=1
 
