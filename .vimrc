@@ -1,3 +1,6 @@
+" process vim commands, override /etc/vimrc
+set modeline
+
 " vim is a text mode application, do not mess with mouse or copy&paste buffers
 if !has("gui_running")
   let $DISPLAY = ""
