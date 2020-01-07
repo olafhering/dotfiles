@@ -20,22 +20,11 @@ alias gcc='gcc -Wall '
 alias indent='indent -kr -i8 '
 alias patch='patch --no-backup-if-mismatch'
 alias diff='diff -p'
-alias vc=~/bin/vc
 alias vi='env -u DISPLAY vim'
 alias vim='env -u DISPLAY vim'
 
-#lias ibs='/usr/bin/osc --config=$HOME/.osc/oscrc -A https://api.suse.de'
-#lias obs='/usr/bin/osc --config=$HOME/.osc/oscrc -A https://api.opensuse.org'
-#lias pbs='/usr/bin/osc --config=$HOME/.osc/oscrc -A https://pmbs-api.links2linux.org'
-#lias sbs='/usr/bin/osc --config=$HOME/.osc/oscrc -A https://api.suse.com'
-#lias osc='echo "Use 'ibs' or 'obs' or 'pbs' or 'sbs' command" ; false'
-
 if test -e /suse -a -e /mounts
 then
-	alias rtin_suse='sh -c "mkdir -vp /tmp/mybugs ; cd /tmp/mybugs ; rtin -q -g nntp.suse.de -f ~/.newsrc.suse -z" ; date'
-	alias rtin_tinorg='rtin -q -g news.tin.org -f ~/.newsrc.tinorg -z'
-
-	alias 32mbuild='time sudo powerpc32 /work/src/bin/mbuild'
 	alias check_if_valid_source_dir='/work/src/bin/check_if_valid_source_dir'
 	alias whatdependson='/work/src/bin/whatdependson'
 fi
