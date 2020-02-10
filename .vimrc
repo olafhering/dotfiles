@@ -64,3 +64,5 @@ if has("cscope")
   endif
   set csverb
 endif
+
+hi MatchParen cterm=none ctermbg=green ctermfg=blue
