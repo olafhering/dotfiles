@@ -35,6 +35,7 @@ TERM rxvt
 TERM rxvt-unicode
 TERM screen
 TERM screen.xterm
+TERM screen.xterm-256color
 TERM screen-w
 TERM vt100
 TERM vt102
