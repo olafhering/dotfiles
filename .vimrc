@@ -41,6 +41,7 @@ augroup olh
   autocmd BufRead tools/libx?/*.c             set et tw=80 ts=4 shiftwidth=4
   autocmd BufRead tools/libx?/*.h             set et tw=80 ts=4 shiftwidth=4
   autocmd BufRead tools/libx?/*.idl           set et tw=80 ts=4 shiftwidth=4
+  autocmd BufRead tools/libs/ctrl/*.c         set et tw=80 ts=4 shiftwidth=4
   autocmd BufRead tools/xl/*.?                set et tw=80 ts=4 shiftwidth=4
 
   " valgrind.git
