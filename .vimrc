@@ -34,15 +34,16 @@ augroup olh
   autocmd BufRead *.c,*.h set formatoptions=croqlj cindent comments=sr:/*,mb:*,el:*/,://
 
   " xen.git
-  autocmd BufRead xen/*/*.c                   set et tw=80 ts=4 shiftwidth=4
-  autocmd BufRead xen/*/*/*.c                 set et tw=80 ts=4 shiftwidth=4
-  autocmd BufRead xen/*/*/*/*.c               set et tw=80 ts=4 shiftwidth=4
-  autocmd BufRead tools/xentrace/xenalyze/*.c set et tw=80 ts=4 shiftwidth=4
-  autocmd BufRead tools/libx?/*.c             set et tw=80 ts=4 shiftwidth=4
-  autocmd BufRead tools/libx?/*.h             set et tw=80 ts=4 shiftwidth=4
-  autocmd BufRead tools/libx?/*.idl           set et tw=80 ts=4 shiftwidth=4
-  autocmd BufRead tools/libs/ctrl/*.c         set et tw=80 ts=4 shiftwidth=4
-  autocmd BufRead tools/xl/*.?                set et tw=80 ts=4 shiftwidth=4
+  autocmd BufRead xen/*/*.c                   set et tw=80 ts=4 shiftwidth=4 cc=80
+  autocmd BufRead xen/*/*/*.c                 set et tw=80 ts=4 shiftwidth=4 cc=80
+  autocmd BufRead xen/*/*/*/*.c               set et tw=80 ts=4 shiftwidth=4 cc=80
+  autocmd BufRead tools/xentrace/xenalyze/*.c set et tw=80 ts=4 shiftwidth=4 cc=80
+  autocmd BufRead tools/libx?/*.c             set et tw=80 ts=4 shiftwidth=4 cc=80
+  autocmd BufRead tools/libx?/*.h             set et tw=80 ts=4 shiftwidth=4 cc=80
+  autocmd BufRead tools/libx?/*.idl           set et tw=80 ts=4 shiftwidth=4 cc=80
+  autocmd BufRead tools/libs/ctrl/*.[ch]      set et tw=80 ts=4 shiftwidth=4 cc=80
+  autocmd BufRead tools/libs/guest/*.[ch]     set et tw=80 ts=4 shiftwidth=4 cc=80
+  autocmd BufRead tools/xl/*.?                set et tw=80 ts=4 shiftwidth=4 cc=80
 
   " valgrind.git
   autocmd BufRead coregrind/m_syswrap/*.c set et tw=80 ts=3 shiftwidth=3
