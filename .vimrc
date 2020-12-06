@@ -1,3 +1,4 @@
+syntax on
 " process vim commands, override /etc/vimrc
 set modeline
 
