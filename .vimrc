@@ -45,6 +45,7 @@ augroup olh
   autocmd BufRead tools/libx?/*.idl           set et tw=80 ts=4 shiftwidth=4 cc=80
   autocmd BufRead tools/libs/ctrl/*.[ch]      set et tw=80 ts=4 shiftwidth=4 cc=80
   autocmd BufRead tools/libs/guest/*.[ch]     set et tw=80 ts=4 shiftwidth=4 cc=80
+  autocmd BufRead tools/libs/light/*.[ch]     set et tw=80 ts=4 shiftwidth=4 cc=80
   autocmd BufRead tools/misc/*.?              set et tw=80 ts=4 shiftwidth=4 cc=80
   autocmd BufRead tools/xl/*.?                set et tw=80 ts=4 shiftwidth=4 cc=80
 
