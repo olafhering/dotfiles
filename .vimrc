@@ -49,6 +49,9 @@ augroup olh
   autocmd BufRead tools/misc/*.?              set et tw=80 ts=4 shiftwidth=4 cc=80
   autocmd BufRead tools/xl/*.?                set et tw=80 ts=4 shiftwidth=4 cc=80
 
+  " libvirt.git
+  autocmd BufRead src/libxl/*.[ch]            set et tw=80 ts=4 shiftwidth=4 cc=80
+
   " valgrind.git
   autocmd BufRead coregrind/m_syswrap/*.c set et tw=80 ts=3 shiftwidth=3
   autocmd BufRead include/vki/vki-xen*.h  set et tw=80 ts=4 shiftwidth=4
