@@ -43,9 +43,22 @@ augroup olh
   autocmd BufRead tools/libx?/*.c             set et tw=80 ts=4 shiftwidth=4 cc=80
   autocmd BufRead tools/libx?/*.h             set et tw=80 ts=4 shiftwidth=4 cc=80
   autocmd BufRead tools/libx?/*.idl           set et tw=80 ts=4 shiftwidth=4 cc=80
-  autocmd BufRead tools/libs/ctrl/*.[ch]      set et tw=80 ts=4 shiftwidth=4 cc=80
-  autocmd BufRead tools/libs/guest/*.[ch]     set et tw=80 ts=4 shiftwidth=4 cc=80
-  autocmd BufRead tools/libs/light/*.[ch]     set et tw=80 ts=4 shiftwidth=4 cc=80
+  autocmd BufRead tools/libs/call/*.[ch]          set et tw=80 ts=4 shiftwidth=4 cc=80
+  autocmd BufRead tools/libs/ctrl/*.[ch]          set et tw=80 ts=4 shiftwidth=4 cc=80
+  autocmd BufRead tools/libs/devicemodel/*.[ch]   set et tw=80 ts=4 shiftwidth=4 cc=80
+  autocmd BufRead tools/libs/evtchn/*.[ch]        set et tw=80 ts=4 shiftwidth=4 cc=80
+  autocmd BufRead tools/libs/foreignmemory/*.[ch] set et tw=80 ts=4 shiftwidth=4 cc=80
+  autocmd BufRead tools/libs/gnttab/*.[ch]        set et tw=80 ts=4 shiftwidth=4 cc=80
+  autocmd BufRead tools/libs/guest/*.[ch]         set et tw=80 ts=4 shiftwidth=4 cc=80
+  autocmd BufRead tools/libs/hypfs/*.[ch]         set et tw=80 ts=4 shiftwidth=4 cc=80
+  autocmd BufRead tools/libs/light/*.[ch]         set et tw=80 ts=4 shiftwidth=4 cc=80
+  autocmd BufRead tools/libs/saverestore/*.[ch]   set et tw=80 ts=4 shiftwidth=4 cc=80
+  autocmd BufRead tools/libs/stat/*.[ch]          set et tw=80 ts=4 shiftwidth=4 cc=80
+  autocmd BufRead tools/libs/store/*.[ch]         set et tw=80 ts=4 shiftwidth=4 cc=80
+  autocmd BufRead tools/libs/toolcore/*.[ch]      set et tw=80 ts=4 shiftwidth=4 cc=80
+  autocmd BufRead tools/libs/toollog/*.[ch]       set et tw=80 ts=4 shiftwidth=4 cc=80
+  autocmd BufRead tools/libs/util/*.[ch]          set et tw=80 ts=4 shiftwidth=4 cc=80
+  autocmd BufRead tools/libs/vchan/*.[ch]         set et tw=80 ts=4 shiftwidth=4 cc=80
   autocmd BufRead tools/misc/*.?              set et tw=80 ts=4 shiftwidth=4 cc=80
   autocmd BufRead tools/xl/*.?                set et tw=80 ts=4 shiftwidth=4 cc=80
 
