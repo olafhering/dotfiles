@@ -13,6 +13,36 @@ export HISTCONTROL=ignoreboth:erasedups
 export HISTFILESIZE=123456
 export HISTSIZE=23456
 export PS1='\u@\h:\w \$ '
+if test -d /usr/share/terminfo && test -n "${TERM}"
+then
+	new_term=
+	for i in /usr/share/terminfo/*/"${TERM}"
+	do
+		if test -f "${i}"
+		then
+			new_term="${TERM}"
+			break
+		fi
+	done
+	if test -z "${new_term}"
+	then
+		for i in /usr/share/terminfo/*/"${TERM%%.*}"
+		do
+			if test -f "${i}"
+			then
+				new_term="${TERM%%.*}"
+				break
+			fi
+		done
+	fi
+	if test -n "${new_term}"
+	then
+		export olh_TERM="${TERM}"
+		export TERM="${new_term}"
+		unset new_term
+	fi
+	unset i
+fi
 test -z "$SHELL"        && export SHELL=/bin/bash     || :
 test -x /usr/bin/vim    && export EDITOR=/usr/bin/vim || :
 test -r /sw/bin/init.sh && source /sw/bin/init.sh     || :
