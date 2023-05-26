@@ -60,6 +60,7 @@ augroup olh
   autocmd BufRead tools/libs/util/*.[ch]          set et tw=80 ts=4 shiftwidth=4 cc=80
   autocmd BufRead tools/libs/vchan/*.[ch]         set et tw=80 ts=4 shiftwidth=4 cc=80
   autocmd BufRead tools/misc/*.?              set et tw=80 ts=4 shiftwidth=4 cc=80
+  autocmd BufRead tools/xentrace/*.?          set et tw=80 ts=4 shiftwidth=4 cc=80
   autocmd BufRead tools/xl/*.?                set et tw=80 ts=4 shiftwidth=4 cc=80
 
   " libvirt.git
