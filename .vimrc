@@ -75,8 +75,8 @@ augroup olh
 augroup END
 
 if has("cscope")
-  set csto=0
-  set cst
+  set cscopetagorder=0
+  set cscopetag
   set nocsverb
   " add any database in current directory
   if filereadable("cscope.out")
