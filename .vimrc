@@ -38,6 +38,8 @@ augroup olh
   autocmd BufRead xen/*/*.c                   set et tw=80 ts=4 shiftwidth=4 cc=80
   autocmd BufRead xen/*/*/*.c                 set et tw=80 ts=4 shiftwidth=4 cc=80
   autocmd BufRead xen/*/*/*/*.c               set et tw=80 ts=4 shiftwidth=4 cc=80
+  autocmd BufRead xen/include/*/*.h           set et tw=80 ts=4 shiftwidth=4 cc=80
+  autocmd BufRead xen/include/*/*/*.h         set et tw=80 ts=4 shiftwidth=4 cc=80
   autocmd BufRead tools/xentrace/xenalyze/*.c set et tw=80 ts=4 shiftwidth=4 cc=80
   autocmd BufRead tools/include/*.h           set et tw=80 ts=4 shiftwidth=4 cc=80
   autocmd BufRead tools/libx?/*.c             set et tw=80 ts=4 shiftwidth=4 cc=80
