@@ -76,53 +76,53 @@ EXEC 00;32
 # (and any comments you want to add after a '#')
 
 # archives or compressed
-.tar  00;31
-.tbz  00;31
-.tgz  00;31
-.rpm  00;31
-.deb  00;31
-.arj  00;31
-.taz  00;31
-.lzh  00;31
-.zip  00;31
-.ZIP  00;31
-.zoo  00;31
-.z    00;31
 .Z    00;31
-.gz   00;31
+.ZIP  00;31
+.arj  00;31
 .bz2  00;31
-.tb2  00;31
-.tz2  00;31
-.tbz2 00;31
+.deb  00;31
+.gz   00;31
+.lzh  00;31
 .lzma 00;31
+.rpm  00;31
+.tar  00;31
+.taz  00;31
+.tb2  00;31
+.tbz  00;31
+.tbz2 00;31
+.tgz  00;31
+.tz2  00;31
 .xz   00;31
+.z    00;31
+.zip  00;31
+.zoo  00;31
 .zst  00;31
 .zstd 00;31
 
 # image formats
+.JPG  00;35
+.MOV  00;35
 .avi  00;35
 .bmp  00;35
+.dl   00;35
 .fli  00;35
 .gif  00;35
-.jpg  00;35
-.JPG  00;35
+.gl   00;35
 .jpeg 00;35
+.jpg  00;35
 .mng  00;35
 .mov  00;35
-.MOV  00;35
 .mpg  00;35
-.pcx  00;35
 .pbm  00;35
+.pcx  00;35
 .pgm  00;35
 .png  00;35
 .ppm  00;35
 .tga  00;35
 .tif  00;35
+.wmv  00;35
 .xbm  00;35
 .xpm  00;35
-.dl   00;35
-.gl   00;35
-.wmv  00;35
 
 # sound formats
 .aiff 00;35
